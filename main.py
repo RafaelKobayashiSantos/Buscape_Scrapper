@@ -3,7 +3,7 @@ from scrapper import scrape_cards
 from pipeline import clean_data
 from config import *
 
-dataFrame = { "description": [], "link": [], "price": [], "image_url": [] }
+dataFrame = {  "product_id": [] ,"description": [], "link": [], "price": [], "image_url": [], "price_history": [] }
 
 with sync_playwright() as p:
     browser = p.chromium.launch(
@@ -11,12 +11,8 @@ with sync_playwright() as p:
     )
 
     context = browser.new_context(
-        viewport={"width": 1366, "height": 768},
-        user_agent=(
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-            "AppleWebKit/537.36 (KHTML, like Gecko) "
-            "Chrome/137.0.0.0 Safari/537.36"
-        )
+    viewport=VIEWPORT,
+    user_agent=USER_AGENT
     )
 
     page = context.new_page()
