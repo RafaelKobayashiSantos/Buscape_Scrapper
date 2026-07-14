@@ -3,7 +3,8 @@ from scrapper import scrape_cards
 from pipeline import clean_data
 from config import *
 
-dataFrame = {  "product_id": [] ,"description": [], "link": [], "price": [], "image_url": [], "price_history": [] }
+dataFrame = {  "product_id": [] ,"description": [], "link": [], "price": [], "image_url": []}
+price_historic = {}
 
 with sync_playwright() as p:
     browser = p.chromium.launch(
@@ -37,7 +38,7 @@ with sync_playwright() as p:
             print("Nenhum anúncio encontrado.")
             break
 
-        dataFrame = scrape_cards(cards, dataFrame)
+        dataFrame, price_historic = scrape_cards(cards, dataFrame, price_historic)
 
         page.mouse.wheel(0, 10000)
         page.wait_for_timeout(WAIT_SCROLL)
@@ -56,7 +57,6 @@ with sync_playwright() as p:
 
         n_page += 1
 
-    data = clean_data(dataFrame)
-    #process_data(data)
+    data = clean_data(dataFrame, price_historic)
 
     browser.close()

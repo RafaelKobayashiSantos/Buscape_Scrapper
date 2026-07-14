@@ -13,7 +13,7 @@ def get_text(card, selector):
     return "N/A"
 
 # Scrape the data from the cards and store it in a DataFrame
-def scrape_cards(cards, dataFrame):
+def scrape_cards(cards, dataFrame, price_historic):
 
     for i in range(cards.count()):
 
@@ -53,9 +53,10 @@ def scrape_cards(cards, dataFrame):
         dataFrame["link"].append(link)
         dataFrame["image_url"].append(image_url)
         dataFrame["product_id"].append(product_id)
-        dataFrame["price_history"].append(price_history)
+        
+        price_historic[product_id] = price_history
 
         print(f"Índice {i}")
         print("-" * 50)
 
-    return dataFrame
+    return dataFrame, price_historic

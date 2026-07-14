@@ -18,5 +18,5 @@ def get_price_history(product_id, months=12):
 
     time.sleep(random.uniform(0.8, 1.4))  # Simulate a delay
     json = requests.get(api_url).json()
-    
+
     return json

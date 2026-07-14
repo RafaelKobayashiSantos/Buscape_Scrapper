@@ -2,7 +2,7 @@ import pandas as pd
 from config import EXCEL_NAME
 
 # Function to clean and format the data in the DataFrame
-def clean_data(dataFrame):
+def clean_data(dataFrame, price_historic):
 
     df = pd.DataFrame(dataFrame)
     
@@ -12,9 +12,12 @@ def clean_data(dataFrame):
         .str.replace(".", "", regex=False)
         .str.extract(r"(\d+)")
     )
-
     # Limpeza e formatação dos dados, incluindo remoção de símbolos, extração de números e tratamento de valores nulos
+    historic_df = pd.DataFrame.from_dict(price_historic, orient='index')
 
     df.head() #Exibição dos primeiros registros para verificação
     df.to_excel(EXCEL_NAME, index=False) #Exportação dos dados para um arquivo Excel
+    
+    historic_df.to_json('price_historic/best_values_historic.json', orient='records', lines=True)
+
     return df
