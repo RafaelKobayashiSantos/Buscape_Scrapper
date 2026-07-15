@@ -1,4 +1,5 @@
 from price_history import get_price_history
+import pandas as pd
 # Function to get the text content of an element within a card
 def get_text(card, selector):
 
@@ -39,7 +40,8 @@ def scrape_cards(cards, dataFrame, price_historic):
 
         product_id = card.get_attribute("id")
 
-        price_history = get_price_history(product_id)
+        price_history = get_price_history(int(product_id))
+        price_historic.append(price_history)
 
         print(f"Description: {description}")
         print(f"Price: {price}")
@@ -53,8 +55,6 @@ def scrape_cards(cards, dataFrame, price_historic):
         dataFrame["link"].append(link)
         dataFrame["image_url"].append(image_url)
         dataFrame["product_id"].append(product_id)
-        
-        price_historic[product_id] = price_history
 
         print(f"Índice {i}")
         print("-" * 50)

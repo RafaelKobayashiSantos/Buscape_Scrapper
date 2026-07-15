@@ -2,9 +2,10 @@ from playwright.sync_api import sync_playwright
 from scrapper import scrape_cards
 from pipeline import clean_data
 from config import *
+import pandas as pd
 
 dataFrame = {  "product_id": [] ,"description": [], "link": [], "price": [], "image_url": []}
-price_historic = {}
+price_historic = []
 
 with sync_playwright() as p:
     browser = p.chromium.launch(

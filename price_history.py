@@ -2,6 +2,7 @@ import requests
 import random
 import time
 from datetime import datetime, timedelta
+import pandas as pd
 
 def get_price_history(product_id, months=12):
     """
@@ -17,6 +18,15 @@ def get_price_history(product_id, months=12):
     api_url = f"https://api-v1.zoom.com.br/restql/run-query/sherlock/product_price_history/1?tenant=DEFAULT&product_id={product_id}&period=months&amount={months}"
 
     time.sleep(random.uniform(0.8, 1.4))  # Simulate a delay
-    json = requests.get(api_url).json()
+    response = requests.get(api_url).json()
 
-    return json
+    history = response["product_price_history"]["result"]
+
+    return [
+        {
+            "product_id": item["prodId"],
+            "date": item["date"],
+            "price": item["price"]
+        }
+        for item in history
+    ]
