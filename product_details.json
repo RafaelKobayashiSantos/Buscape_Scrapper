@@ -1,0 +1,1407 @@
+{
+    "categories_breadcrumb": {
+        "details": {
+            "status": 200,
+            "success": true,
+            "metadata": {}
+        }
+    },
+    "images": {
+        "details": [
+            {
+                "status": 200,
+                "success": true,
+                "metadata": {
+                    "ignore-errors": "ignore"
+                }
+            },
+            {
+                "status": 200,
+                "success": true,
+                "metadata": {
+                    "ignore-errors": "ignore"
+                }
+            },
+            {
+                "status": 200,
+                "success": true,
+                "metadata": {
+                    "ignore-errors": "ignore"
+                }
+            },
+            {
+                "status": 200,
+                "success": true,
+                "metadata": {
+                    "ignore-errors": "ignore"
+                }
+            },
+            {
+                "status": 200,
+                "success": true,
+                "metadata": {
+                    "ignore-errors": "ignore"
+                }
+            },
+            {
+                "status": 200,
+                "success": true,
+                "metadata": {
+                    "ignore-errors": "ignore"
+                }
+            },
+            {
+                "status": 200,
+                "success": true,
+                "metadata": {
+                    "ignore-errors": "ignore"
+                }
+            },
+            {
+                "status": 200,
+                "success": true,
+                "metadata": {
+                    "ignore-errors": "ignore"
+                }
+            },
+            {
+                "status": 200,
+                "success": true,
+                "metadata": {
+                    "ignore-errors": "ignore"
+                }
+            },
+            {
+                "status": 200,
+                "success": true,
+                "metadata": {
+                    "ignore-errors": "ignore"
+                }
+            },
+            {
+                "status": 200,
+                "success": true,
+                "metadata": {
+                    "ignore-errors": "ignore"
+                }
+            },
+            {
+                "status": 200,
+                "success": true,
+                "metadata": {
+                    "ignore-errors": "ignore"
+                }
+            },
+            {
+                "status": 200,
+                "success": true,
+                "metadata": {
+                    "ignore-errors": "ignore"
+                }
+            }
+        ]
+    },
+    "offers": {
+        "details": {
+            "status": 200,
+            "success": true,
+            "metadata": {
+                "ignore-errors": "ignore"
+            }
+        }
+    },
+    "product": {
+        "details": {
+            "status": 200,
+            "success": true,
+            "metadata": {}
+        },
+        "result": {
+            "breadcrumb": {
+                "category": {
+                    "active": true,
+                    "category_rank_type": "CAE",
+                    "id": 7,
+                    "media_id": "1917453423",
+                    "name": "Celular e Smartphone",
+                    "popularity": 34127827,
+                    "slug": "celular",
+                    "strategic": false,
+                    "type": "PRODUCT_LEAF"
+                }
+            },
+            "category_id": "7",
+            "comment": "",
+            "id": "12481774",
+            "image_ids": [
+                "-871936652",
+                "-871936805",
+                "-871936871",
+                "-871937534",
+                "-871939068",
+                "-871939069",
+                "-871939070",
+                "-871940086",
+                "-871940564",
+                "-871940886",
+                "-871940922",
+                "-871941004",
+                "-871941219"
+            ],
+            "images": [
+                {
+                    "_embedded": {
+                        "zoom_rels:images": [
+                            {
+                                "urls": {
+                                    "product_super_zoom": "https://i.zst.com.br/thumbs/13/31/1c/-871936652.jpg",
+                                    "product_zoom": "https://i.zst.com.br/thumbs/12/31/1c/-871936652.jpg"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "_embedded": {
+                        "zoom_rels:images": [
+                            {
+                                "urls": {
+                                    "product_super_zoom": "https://i.zst.com.br/thumbs/13/11/1c/-871936805.jpg",
+                                    "product_zoom": "https://i.zst.com.br/thumbs/12/11/1c/-871936805.jpg"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "_embedded": {
+                        "zoom_rels:images": [
+                            {
+                                "urls": {
+                                    "product_super_zoom": "https://i.zst.com.br/thumbs/13/8/1c/-871936871.jpg",
+                                    "product_zoom": "https://i.zst.com.br/thumbs/12/8/1c/-871936871.jpg"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "_embedded": {
+                        "zoom_rels:images": [
+                            {
+                                "urls": {
+                                    "product_super_zoom": "https://i.zst.com.br/thumbs/13/0/3d/-871937534.jpg",
+                                    "product_zoom": "https://i.zst.com.br/thumbs/12/0/3d/-871937534.jpg"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "_embedded": {
+                        "zoom_rels:images": [
+                            {
+                                "urls": {
+                                    "product_super_zoom": "https://i.zst.com.br/thumbs/13/26/3f/-871939068.jpg",
+                                    "product_zoom": "https://i.zst.com.br/thumbs/12/26/3f/-871939068.jpg"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "_embedded": {
+                        "zoom_rels:images": [
+                            {
+                                "urls": {
+                                    "product_super_zoom": "https://i.zst.com.br/thumbs/13/b/3f/-871939069.jpg",
+                                    "product_zoom": "https://i.zst.com.br/thumbs/12/b/3f/-871939069.jpg"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "_embedded": {
+                        "zoom_rels:images": [
+                            {
+                                "urls": {
+                                    "product_super_zoom": "https://i.zst.com.br/thumbs/13/1b/3f/-871939070.jpg",
+                                    "product_zoom": "https://i.zst.com.br/thumbs/12/1b/3f/-871939070.jpg"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "_embedded": {
+                        "zoom_rels:images": [
+                            {
+                                "urls": {
+                                    "product_super_zoom": "https://i.zst.com.br/thumbs/13/16/35/-871940086.jpg",
+                                    "product_zoom": "https://i.zst.com.br/thumbs/12/16/35/-871940086.jpg"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "_embedded": {
+                        "zoom_rels:images": [
+                            {
+                                "urls": {
+                                    "product_super_zoom": "https://i.zst.com.br/thumbs/13/17/35/-871940564.jpg",
+                                    "product_zoom": "https://i.zst.com.br/thumbs/12/17/35/-871940564.jpg"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "_embedded": {
+                        "zoom_rels:images": [
+                            {
+                                "urls": {
+                                    "product_super_zoom": "https://i.zst.com.br/thumbs/13/1e/35/-871940886.jpg",
+                                    "product_zoom": "https://i.zst.com.br/thumbs/12/1e/35/-871940886.jpg"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "_embedded": {
+                        "zoom_rels:images": [
+                            {
+                                "urls": {
+                                    "product_super_zoom": "https://i.zst.com.br/thumbs/13/1d/35/-871940922.jpg",
+                                    "product_zoom": "https://i.zst.com.br/thumbs/12/1d/35/-871940922.jpg"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "_embedded": {
+                        "zoom_rels:images": [
+                            {
+                                "urls": {
+                                    "product_super_zoom": "https://i.zst.com.br/thumbs/13/24/16/-871941004.jpg",
+                                    "product_zoom": "https://i.zst.com.br/thumbs/12/24/16/-871941004.jpg"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "_embedded": {
+                        "zoom_rels:images": [
+                            {
+                                "urls": {
+                                    "product_super_zoom": "https://i.zst.com.br/thumbs/13/3c/16/-871941219.jpg",
+                                    "product_zoom": "https://i.zst.com.br/thumbs/12/3c/16/-871941219.jpg"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "name": "iPhone 14 Plus 256GB 6GB",
+            "offer": {
+                "bestOffer": {
+                    "category_id": "7",
+                    "condition": "NEW",
+                    "cross_border": false,
+                    "name": "Apple iPhone 14 Plus (256 GB) – Meia noite (Seminovo)",
+                    "offer_id": "1538116607",
+                    "popularity": 0,
+                    "product_id": "12481774",
+                    "sales_condition": {
+                        "competitiveness_index": 0.9943,
+                        "hasInterest": true,
+                        "installments": [],
+                        "loweringPercentage": 0,
+                        "lowering_index": null,
+                        "price": 3315.57,
+                        "stock": 4,
+                        "total_price": 3315.57
+                    },
+                    "seller": {
+                        "id": "1582",
+                        "is_marketplace": false,
+                        "logo_url": "https://s.zst.com.br/prod/cupons/thumbs/9/merchant_1582_1397758033601.com",
+                        "name": "Amazon",
+                        "rounded_logo_urls": {
+                            "medium": "https://s.zst.com.br/prod/cupons/1582-Logo-200x200.png",
+                            "small": "https://s.zst.com.br/prod/cupons/1582-Logo-80x80.png"
+                        }
+                    },
+                    "sku_id": "1538116607",
+                    "sku_variations": [],
+                    "thumb_url": "https://image.zst.com.br/A3A4F598FF602C4E5CD20FBAC695BE61_110_110.jpg"
+                },
+                "seller_count": 2
+            },
+            "routes": {
+                "canonical": "/celular/smartphone-apple-iphone-14-plus-256gb-camera-dupla"
+            },
+            "specification": {
+                "attributes": [
+                    {
+                        "group": "Informações Básicas",
+                        "values": [
+                            {
+                                "name": "Marca",
+                                "values": [
+                                    {
+                                        "filter": {
+                                            "label": "Apple",
+                                            "slug": "apple",
+                                            "status": "ENABLE"
+                                        },
+                                        "name": "Apple",
+                                        "show": true,
+                                        "status": "Active"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Linha",
+                                "values": [
+                                    {
+                                        "filter": {
+                                            "label": "iPhone",
+                                            "slug": "linha-iphone",
+                                            "status": "ENABLE"
+                                        },
+                                        "name": "iPhone",
+                                        "show": true,
+                                        "status": "Active"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Série",
+                                "values": [
+                                    {
+                                        "filter": {
+                                            "label": "14 Plus",
+                                            "slug": "serie-14-plus",
+                                            "status": "ENABLE"
+                                        },
+                                        "name": "14 Plus",
+                                        "show": true,
+                                        "status": "Active"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Tipo de Aparelho",
+                                "values": [
+                                    {
+                                        "name": "Smartphone",
+                                        "show": true,
+                                        "status": "Active"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Quantidade de Chip",
+                                "values": [
+                                    {
+                                        "name": "1 Chip",
+                                        "show": true,
+                                        "status": "Active"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Câmera",
+                        "values": [
+                            {
+                                "name": "Câmera Frontal",
+                                "values": [
+                                    {
+                                        "name": "Sim",
+                                        "show": true,
+                                        "status": "Active"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Resolução da Câmera Frontal",
+                                "values": [
+                                    {
+                                        "name": "12.0 MP",
+                                        "show": true,
+                                        "status": "Active"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Resolução da Câmera Frontal (FILTRO)",
+                                "values": [
+                                    {
+                                        "filter": {
+                                            "label": "12 MP a 16 MP",
+                                            "slug": "12-mp-a-16-mp",
+                                            "status": "ENABLE"
+                                        },
+                                        "name": "12.0",
+                                        "show": false,
+                                        "status": "Active",
+                                        "unit": "MP"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Abertura da Câmera Frontal",
+                                "values": [
+                                    {
+                                        "name": "f/1.9",
+                                        "show": true,
+                                        "status": "Active"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Resolução da Câmera Traseira",
+                                "values": [
+                                    {
+                                        "name": "12.0 + 12.0 MP",
+                                        "show": true,
+                                        "status": "Active"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Resolução da Câmera Traseira (FILTRO)",
+                                "values": [
+                                    {
+                                        "filter": {
+                                            "label": "12 MP a 15 MP",
+                                            "slug": "12-1-mp",
+                                            "status": "ENABLE"
+                                        },
+                                        "name": "12.0",
+                                        "show": false,
+                                        "status": "Active",
+                                        "unit": "MP"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Abertura da Câmera Traseira",
+                                "values": [
+                                    {
+                                        "name": "f/1.5 + f/2.4",
+                                        "show": true,
+                                        "status": "Active"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Filma em(Câmera Frontal)",
+                                "values": [
+                                    {
+                                        "name": "4K",
+                                        "show": true,
+                                        "status": "Active"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Filma em(Câmera Traseira)",
+                                "values": [
+                                    {
+                                        "filter": {
+                                            "label": "4K",
+                                            "slug": "4k",
+                                            "status": "ENABLE"
+                                        },
+                                        "name": "4K",
+                                        "show": true,
+                                        "status": "Active"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Diferenciais da Câmera",
+                                "values": [
+                                    {
+                                        "filter": {
+                                            "label": "Autofoco",
+                                            "slug": "autofoco",
+                                            "status": "ENABLE"
+                                        },
+                                        "name": "Autofoco",
+                                        "show": true,
+                                        "status": "Active"
+                                    },
+                                    {
+                                        "filter": {
+                                            "label": "Câmera Dupla",
+                                            "slug": "camera-dupla",
+                                            "status": "ENABLE"
+                                        },
+                                        "name": "Câmera Dupla",
+                                        "show": true,
+                                        "status": "Active"
+                                    },
+                                    {
+                                        "filter": {
+                                            "label": "Flash",
+                                            "slug": "flash",
+                                            "status": "ENABLE"
+                                        },
+                                        "name": "Flash",
+                                        "show": true,
+                                        "status": "Active"
+                                    },
+                                    {
+                                        "filter": {
+                                            "label": "Flash Frontal",
+                                            "slug": "flash-camera-frontal",
+                                            "status": "ENABLE"
+                                        },
+                                        "name": "Flash Frontal",
+                                        "show": true,
+                                        "status": "Active"
+                                    },
+                                    {
+                                        "filter": {
+                                            "label": "HDR",
+                                            "slug": "hdr",
+                                            "status": "ENABLE"
+                                        },
+                                        "name": "HDR",
+                                        "show": true,
+                                        "status": "Active"
+                                    },
+                                    {
+                                        "filter": {
+                                            "label": "Modo Noturno",
+                                            "slug": "modo-noturno",
+                                            "status": "ENABLE"
+                                        },
+                                        "name": "Modo Noturno",
+                                        "show": true,
+                                        "status": "Active"
+                                    },
+                                    {
+                                        "filter": {
+                                            "label": "Modo Retrato",
+                                            "slug": "modo-retrato",
+                                            "status": "ENABLE"
+                                        },
+                                        "name": "Modo Retrato",
+                                        "show": true,
+                                        "status": "Active"
+                                    },
+                                    {
+                                        "filter": {
+                                            "label": "Slow Motion",
+                                            "slug": "slow-motion",
+                                            "status": "ENABLE"
+                                        },
+                                        "name": "Slow Motion",
+                                        "show": true,
+                                        "status": "Active"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Processador, Memória RAM e Armazenamento",
+                        "values": [
+                            {
+                                "name": "Família Sistema Operacional",
+                                "values": [
+                                    {
+                                        "name": "iOS",
+                                        "show": false,
+                                        "status": "Active"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Sistema Operacional",
+                                "values": [
+                                    {
+                                        "filter": {
+                                            "label": "iOS 16",
+                                            "slug": "ios-16",
+                                            "status": "ENABLE"
+                                        },
+                                        "name": "iOS 16",
+                                        "show": true,
+                                        "status": "Active"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Processador",
+                                "values": [
+                                    {
+                                        "name": "Apple A15 Bionic",
+                                        "show": true,
+                                        "status": "Active"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Núcleo de Processador",
+                                "values": [
+                                    {
+                                        "name": "Hexa-Core",
+                                        "show": true,
+                                        "status": "Active"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Velocidade do Processador",
+                                "values": [
+                                    {
+                                        "name": "1.82",
+                                        "show": true,
+                                        "status": "Active",
+                                        "unit": "GHz"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Memória Ram",
+                                "values": [
+                                    {
+                                        "filter": {
+                                            "label": "6GB",
+                                            "slug": "memoria-6-gb-ou-mais",
+                                            "status": "ENABLE"
+                                        },
+                                        "name": "6.0",
+                                        "show": true,
+                                        "status": "Active",
+                                        "unit": "GB"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Memória Interna",
+                                "values": [
+                                    {
+                                        "filter": {
+                                            "label": "256GB",
+                                            "slug": "armazenamento-interno-256gb",
+                                            "status": "ENABLE"
+                                        },
+                                        "name": "256GB",
+                                        "show": true,
+                                        "status": "Active"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Bateria",
+                        "values": [
+                            {
+                                "name": "Capacidade da Bateria",
+                                "values": [
+                                    {
+                                        "name": "4323",
+                                        "show": true,
+                                        "status": "Active",
+                                        "unit": "mAh"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Tela",
+                        "values": [
+                            {
+                                "name": "Tipo de Tela",
+                                "values": [
+                                    {
+                                        "name": "Super Retina XDR",
+                                        "show": true,
+                                        "status": "Active"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Tamanho da Tela",
+                                "values": [
+                                    {
+                                        "filter": {
+                                            "label": "6.7\"",
+                                            "slug": "6-7-polegadas",
+                                            "status": "ENABLE"
+                                        },
+                                        "name": "6.7",
+                                        "show": true,
+                                        "status": "Active",
+                                        "unit": "\""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Resolução da Tela",
+                                "values": [
+                                    {
+                                        "name": "QHD",
+                                        "show": true,
+                                        "status": "Active"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Conectividade e Recursos",
+                        "values": [
+                            {
+                                "name": "Acesso à Internet",
+                                "values": [
+                                    {
+                                        "filter": {
+                                            "label": "5G",
+                                            "slug": "5g",
+                                            "status": "ENABLE"
+                                        },
+                                        "name": "5G",
+                                        "show": true,
+                                        "status": "Active"
+                                    },
+                                    {
+                                        "filter": {
+                                            "label": "Wi-Fi 6",
+                                            "slug": "wi-fi-6",
+                                            "status": "ENABLE"
+                                        },
+                                        "name": "Wi-Fi 6",
+                                        "show": true,
+                                        "status": "Active"
+                                    },
+                                    {
+                                        "filter": {
+                                            "label": "4G",
+                                            "slug": "acesso-internet-4g",
+                                            "status": "ENABLE"
+                                        },
+                                        "name": "4G",
+                                        "show": true,
+                                        "status": "Active"
+                                    },
+                                    {
+                                        "filter": {
+                                            "label": "Wi-Fi Dual-band",
+                                            "slug": "wi-fi-dual-band",
+                                            "status": "ENABLE"
+                                        },
+                                        "name": "Wi-Fi Dual-band",
+                                        "show": true,
+                                        "status": "Active"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Conectividade",
+                                "values": [
+                                    {
+                                        "filter": {
+                                            "label": "Bluetooth",
+                                            "slug": "conexao-bluetooth",
+                                            "status": "ENABLE"
+                                        },
+                                        "name": "Bluetooth",
+                                        "show": true,
+                                        "status": "Active"
+                                    },
+                                    {
+                                        "filter": {
+                                            "label": "NFC",
+                                            "slug": "nfc",
+                                            "status": "ENABLE"
+                                        },
+                                        "name": "NFC",
+                                        "show": true,
+                                        "status": "Active"
+                                    },
+                                    {
+                                        "filter": {
+                                            "label": "USB Lightning",
+                                            "slug": "usb-lightning",
+                                            "status": "ENABLE"
+                                        },
+                                        "name": "USB Lightning",
+                                        "show": true,
+                                        "status": "Active"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Recursos e Funções",
+                                "values": [
+                                    {
+                                        "filter": {
+                                            "label": "Acelerômetro",
+                                            "slug": "acelerometro",
+                                            "status": "ENABLE"
+                                        },
+                                        "name": "Acelerômetro",
+                                        "show": true,
+                                        "status": "Active"
+                                    },
+                                    {
+                                        "filter": {
+                                            "label": "eSIM",
+                                            "slug": "esim",
+                                            "status": "ENABLE"
+                                        },
+                                        "name": "eSIM",
+                                        "show": true,
+                                        "status": "Active"
+                                    },
+                                    {
+                                        "filter": {
+                                            "label": "Função SOS",
+                                            "slug": "funcao-sos",
+                                            "status": "ENABLE"
+                                        },
+                                        "name": "Função SOS",
+                                        "show": true,
+                                        "status": "Active"
+                                    },
+                                    {
+                                        "filter": {
+                                            "label": "Giroscópio",
+                                            "slug": "giroscopio",
+                                            "status": "ENABLE"
+                                        },
+                                        "name": "Giroscópio",
+                                        "show": true,
+                                        "status": "Active"
+                                    },
+                                    {
+                                        "filter": {
+                                            "label": "Reconhecimento Facial",
+                                            "slug": "reconhecimento-facial",
+                                            "status": "ENABLE"
+                                        },
+                                        "name": "Reconhecimento Facial",
+                                        "show": true,
+                                        "status": "Active"
+                                    },
+                                    {
+                                        "filter": {
+                                            "label": "Resistente à Poeira",
+                                            "slug": "resistente-a-poeira",
+                                            "status": "ENABLE"
+                                        },
+                                        "name": "Resistente à Poeira",
+                                        "show": true,
+                                        "status": "Active"
+                                    },
+                                    {
+                                        "filter": {
+                                            "label": "Resistente à Respingos",
+                                            "slug": "resistente-a-respingos",
+                                            "status": "ENABLE"
+                                        },
+                                        "name": "Resistente à Respingos",
+                                        "show": true,
+                                        "status": "Active"
+                                    },
+                                    {
+                                        "filter": {
+                                            "label": "Resistente à água IP68",
+                                            "slug": "resistente-a-agua-ip68",
+                                            "status": "ENABLE"
+                                        },
+                                        "name": "Resistente à água IP68",
+                                        "show": true,
+                                        "status": "Active"
+                                    },
+                                    {
+                                        "filter": {
+                                            "label": "Sensor de Proximidade",
+                                            "slug": "sensor-de-proximidade",
+                                            "status": "ENABLE"
+                                        },
+                                        "name": "Sensor de Proximidade",
+                                        "show": true,
+                                        "status": "Active"
+                                    },
+                                    {
+                                        "filter": {
+                                            "label": "Som Estéreo",
+                                            "slug": "som-estereo",
+                                            "status": "ENABLE"
+                                        },
+                                        "name": "Som Estéreo",
+                                        "show": true,
+                                        "status": "Active"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Diferenciais desse Produto",
+                                "values": [
+                                    {
+                                        "filter": {
+                                            "label": "Carregamento sem Fio",
+                                            "slug": "carregamento-sem-fio",
+                                            "status": "ENABLE"
+                                        },
+                                        "name": "Carregamento sem Fio",
+                                        "show": true,
+                                        "status": "Active"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Dimensões",
+                        "values": [
+                            {
+                                "name": "Altura",
+                                "values": [
+                                    {
+                                        "name": "16.08",
+                                        "show": true,
+                                        "status": "Active",
+                                        "unit": "cm"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Largura",
+                                "values": [
+                                    {
+                                        "name": "7.81",
+                                        "show": true,
+                                        "status": "Active",
+                                        "unit": "cm"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Profundidade",
+                                "values": [
+                                    {
+                                        "name": "0.78",
+                                        "show": true,
+                                        "status": "Active",
+                                        "unit": "cm"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Peso",
+                                "values": [
+                                    {
+                                        "name": "203.0",
+                                        "show": true,
+                                        "status": "Active",
+                                        "unit": "g"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "id": "pspecid-12481774"
+            },
+            "status": "Active"
+        }
+    },
+    "product_specification": {
+        "details": {
+            "status": 200,
+            "success": true,
+            "metadata": {}
+        }
+    },
+    "product_user_review": {
+        "details": {
+            "status": 404,
+            "success": false,
+            "metadata": {
+                "ignore-errors": "ignore"
+            }
+        }
+    },
+    "routes_by_product": {
+        "details": {
+            "status": 200,
+            "success": true,
+            "metadata": {
+                "ignore-errors": "ignore"
+            }
+        }
+    },
+    "12481774": {
+        "product_id": "12481774",
+        "name": "iPhone 14 Plus 256GB 6GB",
+        "url_path": "/celular/smartphone-apple-iphone-14-plus-256gb-camera-dupla",
+        "images": [
+            {
+                "product_super_zoom": "https://i.zst.com.br/thumbs/13/31/1c/-871936652.jpg",
+                "product_zoom": "https://i.zst.com.br/thumbs/12/31/1c/-871936652.jpg"
+            },
+            {
+                "product_super_zoom": "https://i.zst.com.br/thumbs/13/11/1c/-871936805.jpg",
+                "product_zoom": "https://i.zst.com.br/thumbs/12/11/1c/-871936805.jpg"
+            },
+            {
+                "product_super_zoom": "https://i.zst.com.br/thumbs/13/8/1c/-871936871.jpg",
+                "product_zoom": "https://i.zst.com.br/thumbs/12/8/1c/-871936871.jpg"
+            },
+            {
+                "product_super_zoom": "https://i.zst.com.br/thumbs/13/0/3d/-871937534.jpg",
+                "product_zoom": "https://i.zst.com.br/thumbs/12/0/3d/-871937534.jpg"
+            },
+            {
+                "product_super_zoom": "https://i.zst.com.br/thumbs/13/26/3f/-871939068.jpg",
+                "product_zoom": "https://i.zst.com.br/thumbs/12/26/3f/-871939068.jpg"
+            },
+            {
+                "product_super_zoom": "https://i.zst.com.br/thumbs/13/b/3f/-871939069.jpg",
+                "product_zoom": "https://i.zst.com.br/thumbs/12/b/3f/-871939069.jpg"
+            },
+            {
+                "product_super_zoom": "https://i.zst.com.br/thumbs/13/1b/3f/-871939070.jpg",
+                "product_zoom": "https://i.zst.com.br/thumbs/12/1b/3f/-871939070.jpg"
+            },
+            {
+                "product_super_zoom": "https://i.zst.com.br/thumbs/13/16/35/-871940086.jpg",
+                "product_zoom": "https://i.zst.com.br/thumbs/12/16/35/-871940086.jpg"
+            },
+            {
+                "product_super_zoom": "https://i.zst.com.br/thumbs/13/17/35/-871940564.jpg",
+                "product_zoom": "https://i.zst.com.br/thumbs/12/17/35/-871940564.jpg"
+            },
+            {
+                "product_super_zoom": "https://i.zst.com.br/thumbs/13/1e/35/-871940886.jpg",
+                "product_zoom": "https://i.zst.com.br/thumbs/12/1e/35/-871940886.jpg"
+            },
+            {
+                "product_super_zoom": "https://i.zst.com.br/thumbs/13/1d/35/-871940922.jpg",
+                "product_zoom": "https://i.zst.com.br/thumbs/12/1d/35/-871940922.jpg"
+            },
+            {
+                "product_super_zoom": "https://i.zst.com.br/thumbs/13/24/16/-871941004.jpg",
+                "product_zoom": "https://i.zst.com.br/thumbs/12/24/16/-871941004.jpg"
+            },
+            {
+                "product_super_zoom": "https://i.zst.com.br/thumbs/13/3c/16/-871941219.jpg",
+                "product_zoom": "https://i.zst.com.br/thumbs/12/3c/16/-871941219.jpg"
+            }
+        ],
+        "rating": null,
+        "review_count": null,
+        "best_offer": {
+            "offer_id": "1538116607",
+            "price": 3315.57,
+            "total_price": 3315.57,
+            "seller": "Amazon",
+            "seller_id": "1582",
+            "seller_count": 2,
+            "condition": "NEW"
+        },
+        "specifications": {
+            "Informações Básicas": {
+                "Marca": [
+                    {
+                        "value": "Apple",
+                        "unit": null
+                    }
+                ],
+                "Linha": [
+                    {
+                        "value": "iPhone",
+                        "unit": null
+                    }
+                ],
+                "Série": [
+                    {
+                        "value": "14 Plus",
+                        "unit": null
+                    }
+                ],
+                "Tipo de Aparelho": [
+                    {
+                        "value": "Smartphone",
+                        "unit": null
+                    }
+                ],
+                "Quantidade de Chip": [
+                    {
+                        "value": "1 Chip",
+                        "unit": null
+                    }
+                ]
+            },
+            "Câmera": {
+                "Câmera Frontal": [
+                    {
+                        "value": "Sim",
+                        "unit": null
+                    }
+                ],
+                "Resolução da Câmera Frontal": [
+                    {
+                        "value": "12.0 MP",
+                        "unit": null
+                    }
+                ],
+                "Abertura da Câmera Frontal": [
+                    {
+                        "value": "f/1.9",
+                        "unit": null
+                    }
+                ],
+                "Resolução da Câmera Traseira": [
+                    {
+                        "value": "12.0 + 12.0 MP",
+                        "unit": null
+                    }
+                ],
+                "Abertura da Câmera Traseira": [
+                    {
+                        "value": "f/1.5 + f/2.4",
+                        "unit": null
+                    }
+                ],
+                "Filma em(Câmera Frontal)": [
+                    {
+                        "value": "4K",
+                        "unit": null
+                    }
+                ],
+                "Filma em(Câmera Traseira)": [
+                    {
+                        "value": "4K",
+                        "unit": null
+                    }
+                ],
+                "Diferenciais da Câmera": [
+                    {
+                        "value": "Autofoco",
+                        "unit": null
+                    },
+                    {
+                        "value": "Câmera Dupla",
+                        "unit": null
+                    },
+                    {
+                        "value": "Flash",
+                        "unit": null
+                    },
+                    {
+                        "value": "Flash Frontal",
+                        "unit": null
+                    },
+                    {
+                        "value": "HDR",
+                        "unit": null
+                    },
+                    {
+                        "value": "Modo Noturno",
+                        "unit": null
+                    },
+                    {
+                        "value": "Modo Retrato",
+                        "unit": null
+                    },
+                    {
+                        "value": "Slow Motion",
+                        "unit": null
+                    }
+                ]
+            },
+            "Processador, Memória RAM e Armazenamento": {
+                "Sistema Operacional": [
+                    {
+                        "value": "iOS 16",
+                        "unit": null
+                    }
+                ],
+                "Processador": [
+                    {
+                        "value": "Apple A15 Bionic",
+                        "unit": null
+                    }
+                ],
+                "Núcleo de Processador": [
+                    {
+                        "value": "Hexa-Core",
+                        "unit": null
+                    }
+                ],
+                "Velocidade do Processador": [
+                    {
+                        "value": "1.82",
+                        "unit": "GHz"
+                    }
+                ],
+                "Memória Ram": [
+                    {
+                        "value": "6.0",
+                        "unit": "GB"
+                    }
+                ],
+                "Memória Interna": [
+                    {
+                        "value": "256GB",
+                        "unit": null
+                    }
+                ]
+            },
+            "Bateria": {
+                "Capacidade da Bateria": [
+                    {
+                        "value": "4323",
+                        "unit": "mAh"
+                    }
+                ]
+            },
+            "Tela": {
+                "Tipo de Tela": [
+                    {
+                        "value": "Super Retina XDR",
+                        "unit": null
+                    }
+                ],
+                "Tamanho da Tela": [
+                    {
+                        "value": "6.7",
+                        "unit": "\""
+                    }
+                ],
+                "Resolução da Tela": [
+                    {
+                        "value": "QHD",
+                        "unit": null
+                    }
+                ]
+            },
+            "Conectividade e Recursos": {
+                "Acesso à Internet": [
+                    {
+                        "value": "5G",
+                        "unit": null
+                    },
+                    {
+                        "value": "Wi-Fi 6",
+                        "unit": null
+                    },
+                    {
+                        "value": "4G",
+                        "unit": null
+                    },
+                    {
+                        "value": "Wi-Fi Dual-band",
+                        "unit": null
+                    }
+                ],
+                "Conectividade": [
+                    {
+                        "value": "Bluetooth",
+                        "unit": null
+                    },
+                    {
+                        "value": "NFC",
+                        "unit": null
+                    },
+                    {
+                        "value": "USB Lightning",
+                        "unit": null
+                    }
+                ],
+                "Recursos e Funções": [
+                    {
+                        "value": "Acelerômetro",
+                        "unit": null
+                    },
+                    {
+                        "value": "eSIM",
+                        "unit": null
+                    },
+                    {
+                        "value": "Função SOS",
+                        "unit": null
+                    },
+                    {
+                        "value": "Giroscópio",
+                        "unit": null
+                    },
+                    {
+                        "value": "Reconhecimento Facial",
+                        "unit": null
+                    },
+                    {
+                        "value": "Resistente à Poeira",
+                        "unit": null
+                    },
+                    {
+                        "value": "Resistente à Respingos",
+                        "unit": null
+                    },
+                    {
+                        "value": "Resistente à água IP68",
+                        "unit": null
+                    },
+                    {
+                        "value": "Sensor de Proximidade",
+                        "unit": null
+                    },
+                    {
+                        "value": "Som Estéreo",
+                        "unit": null
+                    }
+                ],
+                "Diferenciais desse Produto": [
+                    {
+                        "value": "Carregamento sem Fio",
+                        "unit": null
+                    }
+                ]
+            },
+            "Dimensões": {
+                "Altura": [
+                    {
+                        "value": "16.08",
+                        "unit": "cm"
+                    }
+                ],
+                "Largura": [
+                    {
+                        "value": "7.81",
+                        "unit": "cm"
+                    }
+                ],
+                "Profundidade": [
+                    {
+                        "value": "0.78",
+                        "unit": "cm"
+                    }
+                ],
+                "Peso": [
+                    {
+                        "value": "203.0",
+                        "unit": "g"
+                    }
+                ]
+            }
+        }
+    }
+}

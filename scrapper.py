@@ -1,4 +1,5 @@
-from price_history import get_price_history
+from request_module import get_price_history, get_product_compare
+from product_parser import parse_product_compare
 import pandas as pd
 # Function to get the text content of an element within a card
 def get_text(card, selector):
@@ -14,7 +15,7 @@ def get_text(card, selector):
     return "N/A"
 
 # Scrape the data from the cards and store it in a DataFrame
-def scrape_cards(cards, dataFrame, price_historic):
+def scrape_cards(cards, dataFrame, price_historic, product_details):
 
     for i in range(cards.count()):
 
@@ -40,6 +41,13 @@ def scrape_cards(cards, dataFrame, price_historic):
 
         product_id = card.get_attribute("id")
 
+        product_details = get_product_compare(int(product_id))
+        product_data = parse_product_compare(product_details)
+
+        product_details[product_id] = product_data
+
+        print(f"Detalhes do produto: {product_data}")
+
         price_history = get_price_history(int(product_id))
         price_historic.append(price_history)
 
@@ -59,4 +67,4 @@ def scrape_cards(cards, dataFrame, price_historic):
         print(f"Índice {i}")
         print("-" * 50)
 
-    return dataFrame, price_historic
+    return dataFrame, price_historic, product_details

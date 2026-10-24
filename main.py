@@ -3,9 +3,13 @@ from scrapper import scrape_cards
 from pipeline import clean_data
 from config import *
 import pandas as pd
+from request_module import get_price_history, get_product_compare
+from product_parser import parse_product_compare
+from data_exporter import export_data
 
-dataFrame = {  "product_id": [] ,"description": [], "link": [], "price": [], "image_url": []}
+dataFrame = {"product_id": [] ,"description": [], "link": [], "price": [], "image_url": []}
 price_historic = []
+product_details = {}
 
 with sync_playwright() as p:
     browser = p.chromium.launch(
@@ -39,7 +43,12 @@ with sync_playwright() as p:
             print("Nenhum anúncio encontrado.")
             break
 
-        dataFrame, price_historic = scrape_cards(cards, dataFrame, price_historic)
+        dataFrame, price_historic, product_details = scrape_cards(
+            cards,
+            dataFrame,
+            price_historic,
+            product_details
+        )
 
         page.mouse.wheel(0, 10000)
         page.wait_for_timeout(WAIT_SCROLL)
@@ -58,6 +67,10 @@ with sync_playwright() as p:
 
         n_page += 1
 
-    data = clean_data(dataFrame, price_historic)
+# Limpa os dados dos cards
+    products = clean_data(dataFrame)
+
+# Exporta as tabelas para o Excel
+    export_data(products, price_historic, product_details)
 
     browser.close()
