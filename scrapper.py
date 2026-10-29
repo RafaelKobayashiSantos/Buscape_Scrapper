@@ -41,10 +41,10 @@ def scrape_cards(cards, dataFrame, price_historic, product_details):
 
         product_id = card.get_attribute("id")
 
-        product_details = get_product_compare(int(product_id))
-        product_data = parse_product_compare(product_details)
+        raw_details = get_product_compare(int(product_id))
+        product_data = parse_product_compare(raw_details)
 
-        product_details[product_id] = product_data
+        product_details[str(product_id)] = product_data
 
         print(f"Detalhes do produto: {product_data}")
 

@@ -13,21 +13,23 @@ def export_data(dataFrame, price_historic, product_details):
     # 1. Produtos coletados dos cards
     products_df = pd.DataFrame(dataFrame).copy()
 
-    # 2. Histórico: transforma listas de históricos em linhas
+    # 2. Histórico: transforma os registros em linhas
     history_rows = []
 
     for product_history in price_historic:
-        if isinstance(product_history, list):
-            records = product_history
-        elif isinstance(product_history, dict):
-            records = [product_history]
-        else:
+        if not isinstance(product_history, dict):
             continue
 
-        for item in records:
-            if isinstance(item, dict):
+        for product_id, records in product_history.items():
+            if not isinstance(records, list):
+                continue
+
+            for item in records:
+                if not isinstance(item, dict):
+                    continue
+
                 history_rows.append({
-                    "product_id": item.get("product_id"),
+                    "product_id": product_id,
                     "date": item.get("date"),
                     "price": item.get("price")
                 })
